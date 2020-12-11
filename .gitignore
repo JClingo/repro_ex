@@ -10,3 +10,5 @@ paper/paper.pdf
 */.DS_Store
 
 .Rproj.user
+.RData
+.Rhistory

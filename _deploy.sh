@@ -5,8 +5,8 @@ set -e
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 
-git config --global user.email "your@email.here"
-git config --global user.name "Your Name"
+git config --global user.email "joshuaclingo@gmail.com"
+git config --global user.name "Joshua Clingo"
 
 git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git temp
 cd temp
